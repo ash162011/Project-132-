@@ -1,0 +1,66 @@
+<html> 
+     <head>
+          <title> OBJECT DETECTION ON IMAGES</title>
+
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster+Two&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+     </head>
+
+     <body> 
+          <center>
+               <h1> Object Detection</h1>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               
+               <button id="bedroom" class="btn btn-dark" onclick="bedroom()"> Bedroom</button>
+               <br> 
+               <br>
+               <button id="tv_ac" class="btn btn-dark" onclick="tv_ac()"> TV and AC</button>
+               <br> 
+               <br>
+               <button id="desk" class="btn btn-dark" onclick="desk()"> Desk</button>
+               <br> 
+               <br>
+               <button id="bottles" class="btn btn-dark" onclick="bottles()"> Bottles</button>
+               <br> 
+               <br>
+               <button id="fruit_basket" class="btn btn-dark" onclick="fruit_basket()"> Fruit Basket</button>
+          </center>
+     </body>
+     <script>
+          function bedroom(){
+               window.location = "bedroom.html";
+          }
+
+          function tv_ac(){
+               window.location = "tv_ac.html";
+          }
+
+          function desk(){
+               window.location = "desk.html";
+          }
+
+          function bottles(){
+               window.location = "bottles.html";
+          }
+
+          function fruit_basket(){
+               window.location = "fruit_basket.html";
+          }
+     </script>
+</html>
